@@ -38,6 +38,10 @@ I create two summary statistics DataFrames:
     * For the first table, I used the `groupby` method to generate the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen. This resulted in five unique series objects. I combine these objects into a single summary statistics DataFrames.
 
     * For the second table, I used the `agg` method to produce the same summary statistics table by using a single line of code.
+    
+    <img width="865" alt="image" src="https://user-images.githubusercontent.com/85926823/195664154-8d6aef85-f3ff-4044-a416-a937dd3ab14e.png">
+<img width="864" alt="image" src="https://user-images.githubusercontent.com/85926823/195664281-f702e16f-d074-4b15-a8c2-222cb93d4bfe.png">
+
 
 ### Create Bar Charts and a Pie Charts
 
@@ -52,6 +56,10 @@ I create two summary statistics DataFrames:
     * I created the first pie plot by using both Pandas's `DataFrame.plot()`.
 
     * I created the second pie plot by using Matplotlib's `pyplot` methods.
+    
+    <img width="781" alt="image" src="https://user-images.githubusercontent.com/85926823/195664420-01113191-d4b9-49d1-951a-747be6f8f74c.png">
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/85926823/195664532-3d8ef0b0-abba-4957-9095-592a3a48d87c.png">
+
 
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot 
 
